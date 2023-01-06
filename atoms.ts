@@ -9,3 +9,8 @@ export const textInput2State = atom({
   key: 'textInput2',
   default: '',
 });
+
+export const textInputState = atom({
+  key: 'textInput',
+  default: '',
+});

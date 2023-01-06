@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useRecoilState } from 'recoil';
 import { textInputState } from './atoms';
 
-const MyCanvas = () => {
+export const MyCanvas = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [textInput, setTextInput] = useRecoilState(textInputState);
 
